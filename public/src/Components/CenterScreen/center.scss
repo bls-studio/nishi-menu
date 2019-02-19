@@ -1,0 +1,76 @@
+@import '../App/global.scss';
+
+#center {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  // background: green;
+
+  * {
+    font-family: "finland";
+    // outline: 1px solid red;
+  }
+}
+.header {
+  position: absolute;
+  top: 2%;
+  left: 0;
+  right: 0;
+
+  h1 {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 1000;
+  }
+}
+.animatingImg {
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  width: 800px;
+  height: 800px;
+  // border: 1px solid red;
+  border-radius: 50% 50%;
+}
+.steps {
+  h3 {
+    font-size: 60px;
+    font-weight: 600;
+  }
+}
+.step1 {
+  position: absolute;
+  top: 20%;
+  right: 35%;
+}
+.step2 {
+  position: absolute;
+  top: 35%;
+  right: 13%;
+
+}
+.step3 {
+  position: absolute;
+  top: 50%;
+  right: 14%;
+}
+.step4 {
+  position: absolute;
+  top: 65%;
+  right: 6.5%;
+}
+// .centerMenuContainer {
+//   // display: flex;
+//   width: 100%;
+//   height: 100%;
+// }
+// .centerLeft, .centerRight {
+//   width: 100%;
+//   height: 100%;
+// }
+// .centerLeft {
+//   // display: flex;
+//   // justify-content: center;
+//   // align-items: center;
+// }
