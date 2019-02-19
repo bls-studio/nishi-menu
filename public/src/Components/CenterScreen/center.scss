@@ -5,13 +5,25 @@
   height: 100vh;
   position: relative;
   overflow: hidden;
-  // background: green;
+  background: $white;
+  // background: {
+  //   image: url(../../../dist/assets/logocolored.png);
+  //   position: center center;
+  //   repeat: no-repeat;
+  //   size: cover;
+  //   // opacity: .3;
+  // }
 
   * {
     font-family: "finland";
     // outline: 1px solid red;
   }
 }
+// .center-container {
+//   background: #1D1D1B33;
+//   width: 100%;
+//   height: 100%;
+// }
 .header {
   position: absolute;
   top: 2%;
@@ -22,6 +34,7 @@
     text-align: center;
     font-size: 100px;
     font-weight: 1000;
+    color: $black;
   }
 }
 .animatingImg {
@@ -30,35 +43,66 @@
   left: 2%;
   width: 800px;
   height: 800px;
+  background: white;
   // border: 1px solid red;
   border-radius: 50% 50%;
 }
 .steps {
+  // background: $white;
+  padding: 10px;
+  box-shadow: 4px 4px 20px -4px rgba(29,29,27,0.25);
+
   h3 {
     font-size: 60px;
     font-weight: 600;
+    color: $gold;
+  }
+  h4 {
+    font-size: 45px;
+    font-weight: 500;
+    color: $black;
   }
 }
 .step1 {
   position: absolute;
   top: 20%;
-  right: 35%;
+  right: 22%;
+  * {
+    animation-delay: 0;
+    animation-duration: 3s;
+  }
 }
 .step2 {
   position: absolute;
   top: 35%;
-  right: 13%;
-
+  right: 12%;
+  * {
+    animation-delay: 3s;
+    animation-duration: 3s;
+  }
 }
 .step3 {
   position: absolute;
-  top: 50%;
-  right: 14%;
+  top: 48%;
+  right: 13%;
+  * {
+    animation-delay: 6s;
+    animation-duration: 3s;
+  }
 }
 .step4 {
   position: absolute;
-  top: 65%;
-  right: 6.5%;
+  top: 66%;
+  right: 6%;
+  * {
+    animation-delay: 9s;
+    animation-duration: 3s;
+  }
+}
+.extras {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 // .centerMenuContainer {
 //   // display: flex;
