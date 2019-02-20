@@ -3,9 +3,7 @@ import './right.scss';
 
 const Right = () => (
   <div id="right">
-    <div>
-      
-    </div>
+    <div></div>
   </div>
 );
 export default Right;

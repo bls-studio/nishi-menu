@@ -6,7 +6,7 @@ import Right from '../RightScreen';
 
 const App = () => (
   <div>
-    {/* <Left /> */}
+    <Left />
     <Center />
     {/* <Right /> */}
   </div>
