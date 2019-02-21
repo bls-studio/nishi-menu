@@ -8,7 +8,7 @@ const App = () => (
   <div>
     <Left />
     <Center />
-    {/* <Right /> */}
+    <Right />
   </div>
 );
 

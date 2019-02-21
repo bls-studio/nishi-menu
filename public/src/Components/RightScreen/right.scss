@@ -3,5 +3,25 @@
 #right {
   width: 100vw;
   height: 100vh;
-  background: red;
+  // background: red;
+
+  * {
+    font-family: "finland";
+  }
+}
+.rightHeader {
+  font-size: 100px;
+  font-weight: 1000;
+  text-align: center;
+}
+.snackItems {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 80px;
+    font-weight: 800;
+  }
 }
