@@ -5,7 +5,7 @@ import Center from '../CenterScreen';
 import Right from '../RightScreen';
 
 const App = () => (
-  <div>
+  <div id="wrapper">
     <Left />
     <Center />
     <Right />

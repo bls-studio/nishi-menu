@@ -6,12 +6,18 @@
   position: relative;
   overflow: hidden;
 
+  background: #E5E5E5;
+  // background: url(https://images.unsplash.com/photo-1517219854193-cd7963d98ad4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80) 50% 50% no-repeat;
+  // background-size: cover;
+
+  // background: url(https://static.vecteezy.com/system/resources/previews/000/152/826/large_2x/vector-old-vintage-paper-texture.jpg) 50% 50% no-repeat;
+  // background-size: cover;
+
   // background-color: #fff;
   // background-image:
   // linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
   // linear-gradient(#eee .1em, transparent .1em);
   // background-size: 100% 1.2em;
-  // background: #B2D9D4;
 
   // background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
   // radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
@@ -32,6 +38,7 @@
   z-index: 0;
   bottom: -16%;
   left: 150px;
+  overflow: hidden;
 }
 .logo {
   position: absolute;
@@ -61,15 +68,17 @@
 }
 .animatingImg {
   position: absolute;
-  top: 24%;
-  left: 8%;
-  width: 600px;
-  height: 600px;
-  background: white;
-  border-radius: 50% 50%
+  top: 15%;
+  left: 2%;
+  width: 800px;
+  height: auto;
+  filter: drop-shadow(30px 20px 4px lightgrey);
+
+  // background: white;
+  // border-radius: 50% 50%
 }
 .steps {
-  // background: $white;
+  // background: rgba(255,255,255,.4);
   padding: 10px;
   box-shadow: 4px 4px 20px -4px rgba(29,29,27,0.25);
 

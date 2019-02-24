@@ -7,12 +7,14 @@ import pmPoke from '../../../dist/assets/pmpoke.jpg';
 import boat from '../../../dist/assets/boat.png';
 // import boat1 from '../../../dist/assets/37325.jpg';
 import logo from '../../../dist/assets/logo.png';
+import transPoke from '../../../dist/assets/pokeTransLarge.png';
+
 
 // const bounce = document.querySelector('.')
 
 const Center = () => (
   <div id="center">
-    <img src={boat} className="backgroundImage1" alt=""/>
+    {/* <img src={boat} className="backgroundImage1" alt=""/> */}
     <img src={logo} className="logo" alt=""/>
     <div className="center-container">
       <div className="header">
@@ -20,8 +22,8 @@ const Center = () => (
       </div>
       <div className="centerMenuContainer">
         <div className="centerLeft">
-          <div className="animatingImg" src={pmPoke}></div>
-          {/* <img className="animatingImg" src={pmPoke} /> */}
+          {/* <div className="animatingImg" src={pmPoke}></div> */}
+          <img className="animatingImg" src={transPoke} />
         </div>
         <div className="centerRight">
           <div className="step1 steps">
