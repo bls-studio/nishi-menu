@@ -3,16 +3,8 @@
 #right {
   width: 100vw;
   height: 100vh;
-  // background: red;
-
-  background: url(https://static.vecteezy.com/system/resources/previews/000/152/826/large_2x/vector-old-vintage-paper-texture.jpg) 50% 50% no-repeat;
-  background-size: cover;
-
-  // background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
-  // radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
-  // radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
-  // background-size: 110px 200px;
-  // background-repeat: repeat-x;
+  background: #E5E5E5;
+  position: relative;
 
   * {
     font-family: "finland";
@@ -34,4 +26,14 @@
     font-size: 80px;
     font-weight: 800;
   }
+}
+.roll {
+  position: absolute;
+  right: 10%;
+  filter: drop-shadow(40px 40px 10px #C0C0C0);
+}
+.coke {
+  position: absolute;
+  filter: drop-shadow(40px 40px 10px #C0C0C0);
+
 }

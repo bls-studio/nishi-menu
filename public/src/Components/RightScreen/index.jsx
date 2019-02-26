@@ -1,19 +1,23 @@
 import React from 'react';
 import './right.scss';
 
+import roll from '../../../dist/assets/roll.png';
+import coke from '../../../dist/assets/coke.png';
+
 const Right = () => (
   <div id="right">
-    <div className="rightHeader">
+    <img src={roll} className="roll" alt=""/>
+    <img src={coke} className="coke" alt=""/>
+    {/* <div className="rightHeader">
       <h1>Drinks & Snacks on the Go</h1>
-    </div>
-    <div className="snackItems">
+    </div> */}
+    {/* <div className="snackItems">
       <h2>Premade Rolls</h2>
       <div className="item">
         <div className="itemNprice">
           <h3>Cup Ramen</h3>
           <h3>$$$</h3>
         </div>
-          {/* <p>Hawaiian Salmon, Hawaiian Tuna, Spicy Tuna, Crabmeat, Spicy Mayo, Eel Sauce</p> */}
         <div className="itemNprice">
           <h3>California Roll</h3>
           <h3>$$$</h3>
@@ -38,7 +42,7 @@ const Right = () => (
           <h3>$$$</h3>
         </div>
       </div>
-    </div>
+    </div> */}
   </div>
 );
 export default Right;

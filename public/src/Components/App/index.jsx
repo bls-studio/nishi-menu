@@ -6,7 +6,7 @@ import Right from '../RightScreen';
 
 const App = () => (
   <div id="wrapper">
-    <Left />
+    {/* <Left /> */}
     <Center />
     <Right />
   </div>

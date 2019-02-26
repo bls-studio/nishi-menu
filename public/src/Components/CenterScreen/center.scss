@@ -1,151 +1,134 @@
-@import '../App/global.scss';
+// @import '../App/global.scss';
 
-#center {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
+// #center {
+//   width: 100vw;
+//   height: 100vh;
+//   position: relative;
+//   overflow: hidden;
+//   background: #E5E5E5;
 
-  background: #E5E5E5;
-  // background: url(https://images.unsplash.com/photo-1517219854193-cd7963d98ad4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80) 50% 50% no-repeat;
-  // background-size: cover;
-
-  // background: url(https://static.vecteezy.com/system/resources/previews/000/152/826/large_2x/vector-old-vintage-paper-texture.jpg) 50% 50% no-repeat;
-  // background-size: cover;
-
-  // background-color: #fff;
-  // background-image:
-  // linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-  // linear-gradient(#eee .1em, transparent .1em);
-  // background-size: 100% 1.2em;
-
-  // background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
-  // radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
-  // radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
-  // background-size: 110px 200px;
-  // background-repeat: repeat-x;
-
-  * {
-    font-family: "finland";
-    // outline: 1px solid red;
-  }
-  z-index: 1;
-}
-.backgroundImage1 {
-  position: absolute;
-  width: 800px;
-  height: auto;
-  z-index: 0;
-  bottom: -16%;
-  left: 150px;
-  overflow: hidden;
-}
-.logo {
-  position: absolute;
-  width: 400px;
-  height: auto;
-  z-index: 0;
-  right: 0;
-  transform: rotate(30deg);
-}
-// .center-container {
-//   background: #1D1D1B33;
-//   width: 100%;
-//   height: 100%;
+//   * {
+//     font-family: "finland";
+//     // outline: 1px solid red;
+//   }
+//   z-index: 1;
 // }
-.header {
-  position: absolute;
-  top: 2%;
-  left: 0;
-  right: 0;
-
-  h1 {
-    text-align: center;
-    font-size: 100px;
-    font-weight: 1000;
-    color: $black;
-  }
-}
-.animatingImg {
-  position: absolute;
-  top: 15%;
-  left: 2%;
-  width: 800px;
-  height: auto;
-  filter: drop-shadow(30px 20px 4px lightgrey);
-
-  // background: white;
-  // border-radius: 50% 50%
-}
-.steps {
-  // background: rgba(255,255,255,.4);
-  padding: 10px;
-  box-shadow: 4px 4px 20px -4px rgba(29,29,27,0.25);
-
-  h3 {
-    font-size: 60px;
-    font-weight: 600;
-    color: $gold;
-    // color: #FCCD75;
-  }
-  h4 {
-    font-size: 45px;
-    font-weight: 500;
-    color: $black;
-  }
-}
-.step1 {
-  position: absolute;
-  top: 20%;
-  right: 22%;
-  * {
-    animation-delay: 0;
-    animation-duration: 3s;
-  }
-}
-.step2 {
-  position: absolute;
-  top: 35%;
-  right: 12%;
-  * {
-    animation-delay: 3s;
-    animation-duration: 3s;
-  }
-}
-.step3 {
-  position: absolute;
-  top: 48%;
-  right: 13%;
-  * {
-    animation-delay: 6s;
-    animation-duration: 3s;
-  }
-}
-.step4 {
-  position: absolute;
-  top: 66%;
-  right: 6%;
-  * {
-    animation-delay: 9s;
-    animation-duration: 3s;
-  }
-}
-.extras {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-}
-// .centerMenuContainer {
-//   // display: flex;
-//   width: 100%;
-//   height: 100%;
+// .backgroundImage1 {
+//   position: absolute;
+//   width: 800px;
+//   height: auto;
+//   z-index: 0;
+//   bottom: -16%;
+//   left: 150px;
+//   overflow: hidden;
 // }
-// .centerLeft, .centerRight {
-//   width: 100%;
-//   height: 100%;
+// .logo {
+//   position: absolute;
+//   width: 400px;
+//   height: auto;
+//   z-index: 0;
+//   right: 0;
+//   transform: rotate(30deg);
 // }
-// .centerLeft {
-//   // display: flex;
-//   // justify-content: center;
-//   // align-items: center;
+// // .center-container {
+// //   background: #1D1D1B33;
+// //   width: 100%;
+// //   height: 100%;
+// // }
+// .header {
+//   position: absolute;
+//   top: 2%;
+//   left: 0;
+//   right: 0;
+
+//   h1 {
+//     text-align: center;
+//     font-size: 100px;
+//     font-weight: 1000;
+//     color: $black;
+//   }
 // }
+// .animatingImg {
+//   position: absolute;
+//   top: 15%;
+//   left: 2%;
+//   width: 800px;
+//   height: auto;
+//   filter: drop-shadow(40px 40px 20px #C0C0C0);
+
+//   // background: white;
+//   // border-radius: 50% 50%
+// }
+// .steps {
+//   // background: rgba(255,255,255,.4);
+//   padding: 10px;
+//   // box-shadow: 4px 4px 20px -4px rgba(29,29,27,0.25);
+
+//   h3 {
+//     font-size: 60px;
+//     font-weight: 600;
+//     color: $black;
+//     // color: $gold;
+//     // color: #FCCD75;
+//   }
+//   h4 {
+//     font-size: 45px;
+//     font-weight: 500;
+//     color: $black;
+//   }
+// }
+// .step1 {
+//   position: absolute;
+//   top: 20%;
+//   right: 22%;
+//   * {
+//     animation-delay: 0;
+//     animation-duration: 3s;
+//   }
+// }
+// .step2 {
+//   position: absolute;
+//   top: 35%;
+//   right: 12%;
+//   * {
+//     animation-delay: 3s;
+//     animation-duration: 3s;
+//   }
+// }
+// .step3 {
+//   position: absolute;
+//   top: 48%;
+//   right: 13%;
+//   * {
+//     animation-delay: 6s;
+//     animation-duration: 3s;
+//   }
+// }
+// .step4 {
+//   position: absolute;
+//   top: 66%;
+//   right: 6%;
+//   * {
+//     animation-delay: 9s;
+//     animation-duration: 3s;
+//   }
+// }
+// .extras {
+//   position: absolute;
+//   bottom: 10px;
+//   right: 10px;
+// }
+// // .centerMenuContainer {
+// //   // display: flex;
+// //   width: 100%;
+// //   height: 100%;
+// // }
+// // .centerLeft, .centerRight {
+// //   width: 100%;
+// //   height: 100%;
+// // }
+// // .centerLeft {
+// //   // display: flex;
+// //   // justify-content: center;
+// //   // align-items: center;
+// // }
