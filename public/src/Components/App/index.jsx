@@ -8,11 +8,14 @@ import Right from '../RightScreen';
 
 const App = () => (
   <div id="wrapper">
-    <Switch>
+    <Left />
+    <Center />
+    <Right />
+    {/* <Switch>
       <Route exact path="/left" component={Left}/>
       <Route exact path="/middle" component={Center}/>
       <Route exact path="/right" component={Right}/>
-    </Switch>
+    </Switch> */}
   </div>
 );
 

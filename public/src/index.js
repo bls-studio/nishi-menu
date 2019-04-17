@@ -6,4 +6,4 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import App from './Components/App/';
 import './Components/App/reset.scss';
 
-render(<Router><App /></Router>, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
