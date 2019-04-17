@@ -1,13 +1,16 @@
 import React from 'react';
 import './right.scss';
 
-import roll from '../../../dist/assets/roll.png';
-import coke from '../../../dist/assets/coke.png';
+import right from '../../../dist/assets/Artboard11.png';
 
 const Right = () => (
   <div id="right">
-    <img src={roll} className="roll" alt=""/>
-    <img src={coke} className="coke" alt=""/>
+    <img src={right} alt=""/>
+  </div>
+);
+export default Right;
+    {/* <img src={roll} className="roll" alt=""/>
+    <img src={coke} className="coke" alt=""/> */}
     {/* <div className="rightHeader">
       <h1>Drinks & Snacks on the Go</h1>
     </div> */}
@@ -43,6 +46,3 @@ const Right = () => (
         </div>
       </div>
     </div> */}
-  </div>
-);
-export default Right;

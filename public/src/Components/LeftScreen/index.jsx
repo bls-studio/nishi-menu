@@ -1,14 +1,18 @@
 import React from 'react';
-import './left.scss';
 import './leftMinimal.scss';
 
 import transPoke from '../../../dist/assets/pokeTransLarge.png';
+import left from '../../../dist/assets/Artboard1.png';
 // import transPoke from '../../../dist/assets/sideview.png';
 
 
 const Left = () => (
   <div id="left">
-    <img src={transPoke} className="pokeImage1"/>
+    <img src={left} alt=""/>
+  </div>
+);
+export default Left;
+    {/* <img src={transPoke} className="pokeImage1"/>
     <div className="leftHeader">
       <h3>Signature Bowls</h3>
     </div>
@@ -50,7 +54,4 @@ const Left = () => (
           <p>Hawaiian Salmon, Hawaiian Tuna, Spicy Tuna, Shrimp, Crabmeat, Avocado, Spicy Mayo, Eel Sauce, Sesame Oil</p>
         </div>
       </div>
-    </div>
-  </div>
-);
-export default Left;
+    </div> */}

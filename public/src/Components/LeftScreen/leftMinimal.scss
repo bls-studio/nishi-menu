@@ -8,7 +8,7 @@
   z-index: 1;
 
   * {
-    font-family: "finland";
+    font-family: "finlandReg";
   }
 }
 
@@ -25,7 +25,7 @@
   position: absolute;
   font-size: 140px;
   font-weight: 1000;
-  color: #1D1D1B;
+  color: $black;
   bottom: 32%;
   left: 8%;
   text-transform: uppercase;
@@ -36,14 +36,14 @@
   width: 45%;
   right: 5%;
   top: 5%;
-  background: url(https://c1.staticflickr.com/3/2767/4030906858_69ccce05c8_b.jpg) 50% 50% no-repeat;
+  background: url(https://images.unsplash.com/photo-1506968430777-bf7784a87f23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2251&q=80) 50% 50% no-repeat;
   background-size: cover;
   box-shadow: 20px 20px 20px #A9A9A9;
 }
 .left_left {
   width: 94%;
   height: 95%;
-  // height: 95%;
+  background: rgba(0,0,0,.4);
   padding: 3%;
   margin: 0 auto;
 }
@@ -55,12 +55,12 @@
   margin: 0 auto;
   h3 {
     color: $white;
-    font-size: 60px;
+    font-size: 65px;
     font-weight: 600;
   }
   p {
     color: $white;
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 55px;
+    // font-weight: 400;
   }
 }

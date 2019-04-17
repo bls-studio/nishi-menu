@@ -4,8 +4,16 @@
 $ubuntu: 'Ubuntu', sans-serif;
 
 @font-face {
-  font-family: 'finland';
+  font-family: 'finlandThin';
   src: url('../../../dist/assets/FinlandRoundedThin.ttf');
+}
+@font-face {
+  font-family: 'finlandReg';
+  src: url('../../../dist/assets/FinlandRoundedRegular.ttf');
+}
+@font-face {
+  font-family: 'finlandBold';
+  src: url('../../../dist/assets/FinlandRoundedBold.ttf');
 }
 
 /* Montserrat */
@@ -14,5 +22,5 @@ $montserrat: 'Montserrat', sans-serif;
 
 // Colors
 $gold: #F6B404;
-$black: #1D1D1B;
+$black: #484848;
 $white: #FFF7EC;
