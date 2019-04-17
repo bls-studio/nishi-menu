@@ -30,6 +30,7 @@
   },
   "scripts": {
     "start": "nodemon server.js",
-    "webpack": "webpack -w"
+    "webpack": "webpack -w",
+    "build": "webpack -p"
   }
 }
