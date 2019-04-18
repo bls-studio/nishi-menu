@@ -51,23 +51,23 @@ html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-	overflow-x: scroll; 
-	overflow-y: hidden;
+	overflow-x: hidden; 
+	overflow-y: scroll;
   z-index: 0;
 }
-#wrapper {
-	scroll-snap-type: x mandatory;
-	display: flex;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	// -webkit-overflow-scrolling: touch;
-	height: 1080px;
-	width: 300%;
+// #wrapper {
+// 	// scroll-snap-type: x mandatory;
+// 	display: flex;
+// 	overflow-x: scroll;
+// 	overflow-y: hidden;
+// 	// -webkit-overflow-scrolling: touch;
+// 	height: 1080px;
+// 	width: 300%;
 
-	* {
-		scroll-snap-align: center;
-	}
-}
+// 	* {
+// 		scroll-snap-align: center;
+// 	}
+// }
 
 * {
 		// -webkit-overflow-scrolling: touch;
