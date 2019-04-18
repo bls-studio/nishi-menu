@@ -681,7 +681,7 @@ eval("module.exports = __webpack_require__.p + \"841c620d62bc2ab054f4a29a3da99c6
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"e5ba417d040fd80a46dd06936132699e.png\";\n\n//# sourceURL=webpack:///./public/dist/assets/Artboard2.png?");
+eval("module.exports = __webpack_require__.p + \"03845b9292e1e3b74ad7be207a52173b.png\";\n\n//# sourceURL=webpack:///./public/dist/assets/Artboard2.png?");
 
 /***/ }),
 
