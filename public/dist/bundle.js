@@ -143,6 +143,17 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../../node_module
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/Ramen/ramen.scss":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/Ramen/ramen.scss ***!
+  \*******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"#ramen {\\n  position: relative; }\\n  #ramen img {\\n    position: absolute;\\n    transform: scale(0.7);\\n    top: -20%; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./public/src/Components/Ramen/ramen.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/RightScreen/right.scss":
 /*!*************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/RightScreen/right.scss ***!
@@ -762,6 +773,17 @@ eval("module.exports = __webpack_require__.p + \"b500bc99a136d9bcc5ba132ea6af881
 
 /***/ }),
 
+/***/ "./public/dist/assets/ramen.png":
+/*!**************************************!*\
+  !*** ./public/dist/assets/ramen.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"d0bedfedc514934dc9304021f861c04f.png\";\n\n//# sourceURL=webpack:///./public/dist/assets/ramen.png?");
+
+/***/ }),
+
 /***/ "./public/dist/assets/sideview.png":
 /*!*****************************************!*\
   !*** ./public/dist/assets/sideview.png ***!
@@ -781,7 +803,7 @@ eval("module.exports = __webpack_require__.p + \"df9edfb902a2003ba091ce7f363d11d
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var _LeftScreen__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../LeftScreen */ \"./public/src/Components/LeftScreen/index.jsx\");\n/* harmony import */ var _CenterScreen__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../CenterScreen */ \"./public/src/Components/CenterScreen/index.jsx\");\n/* harmony import */ var _RightScreen__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../RightScreen */ \"./public/src/Components/RightScreen/index.jsx\");\n\n\n\n\n\n\nvar App = function App() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"wrapper\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_LeftScreen__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CenterScreen__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RightScreen__WEBPACK_IMPORTED_MODULE_4__[\"default\"], null));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./public/src/Components/App/index.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var _LeftScreen__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../LeftScreen */ \"./public/src/Components/LeftScreen/index.jsx\");\n/* harmony import */ var _CenterScreen__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../CenterScreen */ \"./public/src/Components/CenterScreen/index.jsx\");\n/* harmony import */ var _RightScreen__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../RightScreen */ \"./public/src/Components/RightScreen/index.jsx\");\n/* harmony import */ var _Ramen__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Ramen */ \"./public/src/Components/Ramen/index.jsx\");\n\n\n\n\n\n\n\nvar App = function App() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"wrapper\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_LeftScreen__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CenterScreen__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RightScreen__WEBPACK_IMPORTED_MODULE_4__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Ramen__WEBPACK_IMPORTED_MODULE_5__[\"default\"], null));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./public/src/Components/App/index.jsx?");
 
 /***/ }),
 
@@ -839,6 +861,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/lib/loader.js!./leftMinimal.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/LeftScreen/leftMinimal.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./public/src/Components/LeftScreen/leftMinimal.scss?");
+
+/***/ }),
+
+/***/ "./public/src/Components/Ramen/index.jsx":
+/*!***********************************************!*\
+  !*** ./public/src/Components/Ramen/index.jsx ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _ramen_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ramen.scss */ \"./public/src/Components/Ramen/ramen.scss\");\n/* harmony import */ var _ramen_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_ramen_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _dist_assets_ramen_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../dist/assets/ramen.png */ \"./public/dist/assets/ramen.png\");\n/* harmony import */ var _dist_assets_ramen_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_dist_assets_ramen_png__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\nvar Ramen = function Ramen() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"ramen\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _dist_assets_ramen_png__WEBPACK_IMPORTED_MODULE_2___default.a,\n    alt: \"\"\n  }));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Ramen);\n\n//# sourceURL=webpack:///./public/src/Components/Ramen/index.jsx?");
+
+/***/ }),
+
+/***/ "./public/src/Components/Ramen/ramen.scss":
+/*!************************************************!*\
+  !*** ./public/src/Components/Ramen/ramen.scss ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/lib/loader.js!./ramen.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/Ramen/ramen.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./public/src/Components/Ramen/ramen.scss?");
 
 /***/ }),
 
