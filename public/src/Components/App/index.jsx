@@ -9,15 +9,15 @@ import Ramen from '../Ramen';
 
 const App = () => (
   <div id="wrapper">
-    <Left />
+    {/* <Left />
     <Center />
-    <Right />
-    <Ramen />
-    {/* <Switch>
+    <Right /> */}
+    {/* <Ramen /> */}
+    <Switch>
       <Route exact path="/left" component={Left}/>
       <Route exact path="/middle" component={Center}/>
       <Route exact path="/right" component={Right}/>
-    </Switch> */}
+    </Switch>
   </div>
 );
 
