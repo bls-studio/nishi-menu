@@ -670,7 +670,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"148d7f8ea335350d020fa8d973f3f66c.png\";\n\n//# sourceURL=webpack:///./public/dist/assets/Artboard1.png?");
+eval("module.exports = __webpack_require__.p + \"3cdacdc1a5a9f57abbcdfad79b4e92f7.png\";\n\n//# sourceURL=webpack:///./public/dist/assets/Artboard1.png?");
 
 /***/ }),
 
@@ -692,7 +692,7 @@ eval("module.exports = __webpack_require__.p + \"841c620d62bc2ab054f4a29a3da99c6
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"03845b9292e1e3b74ad7be207a52173b.png\";\n\n//# sourceURL=webpack:///./public/dist/assets/Artboard2.png?");
+eval("module.exports = __webpack_require__.p + \"5065dfc0aacd03bee8147f1855d25735.png\";\n\n//# sourceURL=webpack:///./public/dist/assets/Artboard2.png?");
 
 /***/ }),
 
