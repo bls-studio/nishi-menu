@@ -9,7 +9,7 @@ import veggie from '../../../dist/assets/jonathan-borba-1397924-unsplash.jpg'
 
 
 const bowl2 = "https://images.unsplash.com/photo-1534528696266-aade1e8bae09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80";
-const sushi = "https://images.unsplash.com/photo-1538497218805-9844211436f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80";
+const sushi = "https://images.unsplash.com/photo-1455279032140-49a4bf46f343?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80";
 const veggiebowl = "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80";
 
 
@@ -45,15 +45,15 @@ const Right = () => (
           </div>
         </div>
         <div className="each-slide">
+          <div style={{'backgroundImage': `url(${slideImages[3]})`}}>
+          </div>
+        </div>
+        <div className="each-slide">
           <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
           </div>
         </div>
         <div className="each-slide">
           <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-          </div>
-        </div>
-        <div className="each-slide">
-          <div style={{'backgroundImage': `url(${slideImages[3]})`}}>
           </div>
         </div>
         <div className="each-slide">
@@ -67,11 +67,11 @@ const Right = () => (
       </Slide>
     </div>
     <div className="right_screen">
-      <div className="">
+      <div className="top">
 
       </div>
-      <div>
-        <img src={ramen} alt=""/>
+      <div className="bottom">
+        <img src={ramen} alt="" className="ramen"/>
       </div>
 
     </div>
