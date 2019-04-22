@@ -9,10 +9,6 @@ import Ramen from '../Ramen';
 
 const App = () => (
   <div id="wrapper">
-    {/* <Left />
-    <Center />
-    <Right /> */}
-    {/* <Ramen /> */}
     <Switch>
       <Route exact path="/left" component={Left}/>
       <Route exact path="/middle" component={Center}/>
