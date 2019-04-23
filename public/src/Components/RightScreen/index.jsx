@@ -1,6 +1,6 @@
 import React from 'react';
 import './right.scss';
-import { Slide } from 'react-slideshow-image';
+import { Slide, Fade } from 'react-slideshow-image';
 import ramen from '../../../dist/assets/holdingLarge.jpg'
 import poke from '../../../dist/assets/don-daskalo-738393-unsplash.jpg';
 import bowl from '../../../dist/assets/hussain-ibrahim-1487946-unsplash.jpg';
@@ -12,10 +12,12 @@ const bowl2 = "https://images.unsplash.com/photo-1534528696266-aade1e8bae09?ixli
 const sushi = "https://images.unsplash.com/photo-1455279032140-49a4bf46f343?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80";
 const veggiebowl = "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80";
 
+import right1 from '../../../dist/assets/right1b.png';
+import right2 from'../../../dist/assets/right2.png';
 
 
 const properties = {
-  duration: 3000,
+  duration: 4000,
   transitionDuration: 500,
   infinite: true,
   indicators: false,
@@ -30,7 +32,18 @@ const slideImages = [
   bowl2,
   veggiebowl
 ];
-// 'images/slide_4.jpg'
+const fadeProperties = {
+  duration: 4000,
+  transitionDuration: 500,
+  infinite: true,
+  arrows: false,
+  autoplay: true
+}
+const fadeImages = [
+  right1,
+  right2
+];
+ 
 
 import right from '../../../dist/assets/Artboard11.png';
 
@@ -67,12 +80,29 @@ const Right = () => (
       </Slide>
     </div>
     <div className="right_screen">
-      <div className="top">
+    <Fade {...fadeProperties}>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[0]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[1]} />
+        </div>
+      </div>
+      {/* <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[2]} />
+        </div>
+      </div> */}
+    </Fade>
+      {/* <div className="top">
 
-      </div>
-      <div className="bottom">
+      </div> */}
+      {/* <div className="bottom">
         <img src={ramen} alt="" className="ramen"/>
-      </div>
+      </div> */}
 
     </div>
   </div>
