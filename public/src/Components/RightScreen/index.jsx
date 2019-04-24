@@ -50,9 +50,9 @@ import right from '../../../dist/assets/Artboard11.png';
 const Right = () => (
   <div id="right">
     <div className="slideshow">
-      {/* <img src={poke} alt=""/> */}
+      <img src={bowl} alt=""/>
 
-      <Slide {...properties}>
+      {/* <Slide {...properties}>
         <div className="each-slide">
           <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
           </div>
@@ -77,10 +77,11 @@ const Right = () => (
           <div style={{'backgroundImage': `url(${slideImages[5]})`}}>
           </div>
         </div>
-      </Slide>
+      </Slide> */}
     </div>
     <div className="right_screen">
-    <Fade {...fadeProperties}>
+      <img src={right1} alt=""/>
+    {/* <Fade {...fadeProperties}>
       <div className="each-fade">
         <div className="image-container">
           <img src={fadeImages[0]} />
@@ -91,12 +92,12 @@ const Right = () => (
           <img src={fadeImages[1]} />
         </div>
       </div>
+    </Fade> */}
       {/* <div className="each-fade">
         <div className="image-container">
           <img src={fadeImages[2]} />
         </div>
       </div> */}
-    </Fade>
       {/* <div className="top">
 
       </div> */}
