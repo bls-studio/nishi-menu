@@ -80,8 +80,8 @@ const Right = () => (
       </Slide>
     </div>
     <div className="right_screen">
-      <img src={right1} alt=""/>
-    {/* <Fade {...fadeProperties}>
+      {/* <img src={right1} alt=""/> */}
+    <Fade {...fadeProperties}>
       <div className="each-fade">
         <div className="image-container">
           <img src={fadeImages[0]} />
@@ -92,7 +92,7 @@ const Right = () => (
           <img src={fadeImages[1]} />
         </div>
       </div>
-    </Fade> */}
+    </Fade>
       {/* <div className="each-fade">
         <div className="image-container">
           <img src={fadeImages[2]} />
