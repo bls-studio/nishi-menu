@@ -50,9 +50,9 @@ import right from '../../../dist/assets/Artboard11.png';
 const Right = () => (
   <div id="right">
     <div className="slideshow">
-      <img src={bowl} alt=""/>
+      {/* <img src={bowl} alt=""/> */}
 
-      {/* <Slide {...properties}>
+      <Slide {...properties}>
         <div className="each-slide">
           <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
           </div>
@@ -77,7 +77,7 @@ const Right = () => (
           <div style={{'backgroundImage': `url(${slideImages[5]})`}}>
           </div>
         </div>
-      </Slide> */}
+      </Slide>
     </div>
     <div className="right_screen">
       <img src={right1} alt=""/>

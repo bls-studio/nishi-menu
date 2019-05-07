@@ -1,22 +1,24 @@
 import React from 'react';
-// import './center.scss';
 import './centerMinimal.scss';
 
 // images
-import pmPoke from '../../../dist/assets/pmpoke.jpg';
-import boat from '../../../dist/assets/boat.png';
-// import boat1 from '../../../dist/assets/37325.jpg';
-import logo from '../../../dist/assets/logo.png';
-import transPoke from '../../../dist/assets/pokeTransLarge.png';
-import sideview from '../../../dist/assets/sideview.png';
-import middle from '../../../dist/assets/Artboard2.png';
+
+import middle from '../../../dist/assets/Artboard17.png';
+import poke1 from '../../../dist/assets/steps/pokegif3.gif';
 
 
-// const bounce = document.querySelector('.')
+
 
 const Center = () => (
   <div id="center">
-    <img src={middle} alt=""/>
+    <div className="middle_left">
+      <img src={middle} alt=""/>
+    </div>
+    <div className="middle_right">
+      <h1>Build Your Own Bowl</h1>
+      <div className="prices"><h3>Reg | $10.95</h3><h3>Lg | $12.95</h3><h3>Prm | $14.95</h3></div>
+      <img src={poke1} alt=""/>
+    </div>
   </div>
 );
 
@@ -60,3 +62,90 @@ export default Center;
     //     </div>
     //   </div>
     // </div>
+
+
+
+
+        {/* <img src={middle} alt=""/> */}
+    {/* <Fade {...fadeProperties}>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[0]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[1]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[2]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[3]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[4]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[5]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[6]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[7]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[8]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[9]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[10]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[11]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[12]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[13]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[14]} />
+        </div>
+      </div>
+      <div className="each-fade">
+        <div className="image-container">
+          <img src={fadeImages[15]} />
+        </div>
+      </div>
+    </Fade> */}
