@@ -9,13 +9,14 @@ import Soon from '../Soon';
 
 const App = () => (
   <div id="wrapper">
-    <Switch>
+    <Soon />
+  </div>
+);
+    {/* <Switch>
       <Route exact path="/left" component={Left}/>
       <Route exact path="/middle" component={Center}/>
       <Route exact path="/right" component={Right}/>
       <Route exact path='/soon' component={Soon} />
-    </Switch>
-  </div>
-);
+    </Switch> */}
 
 export default App;
