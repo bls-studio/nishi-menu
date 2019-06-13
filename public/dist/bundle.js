@@ -183,7 +183,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../../node_module
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css?family=Ubuntu);\", \"\"]);\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css?family=Montserrat);\", \"\"]);\nvar urlEscape = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ../../../dist/assets/FinlandRoundedThin.ttf */ \"./public/dist/assets/FinlandRoundedThin.ttf\"));\nvar ___CSS_LOADER_URL___1___ = urlEscape(__webpack_require__(/*! ../../../dist/assets/FinlandRoundedRegular.ttf */ \"./public/dist/assets/FinlandRoundedRegular.ttf\"));\nvar ___CSS_LOADER_URL___2___ = urlEscape(__webpack_require__(/*! ../../../dist/assets/FinlandRoundedBold.ttf */ \"./public/dist/assets/FinlandRoundedBold.ttf\"));\n\n// Module\nexports.push([module.i, \"@font-face {\\n  font-family: 'finlandThin';\\n  src: url(\" + ___CSS_LOADER_URL___0___ + \"); }\\n\\n@font-face {\\n  font-family: 'finlandReg';\\n  src: url(\" + ___CSS_LOADER_URL___1___ + \"); }\\n\\n@font-face {\\n  font-family: 'finlandBold';\\n  src: url(\" + ___CSS_LOADER_URL___2___ + \"); }\\n\\n/* Montserrat */\\n#center {\\n  width: 100vw;\\n  height: 100vh;\\n  position: relative;\\n  overflow: hidden;\\n  background: #E5E5E5; }\\n  #center * {\\n    font-family: \\\"finlandReg\\\";\\n    color: #484848; }\\n\\n.middle_left {\\n  position: absolute;\\n  left: 112px;\\n  bottom: 92px;\\n  filter: drop-shadow(40px 40px 20px #C0C0C0); }\\n\\n.middle_right {\\n  width: 50%;\\n  position: absolute;\\n  right: 0px;\\n  bottom: 50px; }\\n  .middle_right h1 {\\n    text-align: center;\\n    font-size: 140px;\\n    font-weight: 1000;\\n    text-transform: uppercase;\\n    position: absolute;\\n    top: -250px;\\n    right: 30px; }\\n  .middle_right .prices {\\n    position: absolute;\\n    display: flex;\\n    width: 90%;\\n    justify-content: space-evenly;\\n    right: 34px;\\n    top: -100px;\\n    text-align: center; }\\n    .middle_right .prices h3 {\\n      font-weight: 1000;\\n      font-size: 70px; }\\n  .middle_right img {\\n    filter: drop-shadow(40px 40px 20px #C0C0C0);\\n    width: 100%;\\n    height: auto; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./public/src/Components/CenterScreen/centerMinimal.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css?family=Ubuntu);\", \"\"]);\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css?family=Montserrat);\", \"\"]);\nvar urlEscape = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ../../../dist/assets/FinlandRoundedThin.ttf */ \"./public/dist/assets/FinlandRoundedThin.ttf\"));\nvar ___CSS_LOADER_URL___1___ = urlEscape(__webpack_require__(/*! ../../../dist/assets/FinlandRoundedRegular.ttf */ \"./public/dist/assets/FinlandRoundedRegular.ttf\"));\nvar ___CSS_LOADER_URL___2___ = urlEscape(__webpack_require__(/*! ../../../dist/assets/FinlandRoundedBold.ttf */ \"./public/dist/assets/FinlandRoundedBold.ttf\"));\n\n// Module\nexports.push([module.i, \"@font-face {\\n  font-family: 'finlandThin';\\n  src: url(\" + ___CSS_LOADER_URL___0___ + \"); }\\n\\n@font-face {\\n  font-family: 'finlandReg';\\n  src: url(\" + ___CSS_LOADER_URL___1___ + \"); }\\n\\n@font-face {\\n  font-family: 'finlandBold';\\n  src: url(\" + ___CSS_LOADER_URL___2___ + \"); }\\n\\n/* Montserrat */\\n@media only screen and (min-width: 1080px) {\\n  #center {\\n    width: 100vw;\\n    height: 100vh;\\n    position: relative;\\n    overflow: hidden;\\n    background: #E5E5E5; }\\n    #center * {\\n      font-family: \\\"finlandReg\\\";\\n      color: #484848; }\\n  .middle_left {\\n    position: absolute;\\n    left: 112px;\\n    bottom: 92px;\\n    filter: drop-shadow(40px 40px 20px #C0C0C0); }\\n  .middle_right {\\n    width: 50%;\\n    position: absolute;\\n    right: 0px;\\n    bottom: 50px; }\\n    .middle_right h1 {\\n      text-align: center;\\n      font-size: 140px;\\n      font-weight: 1000;\\n      text-transform: uppercase;\\n      position: absolute;\\n      top: -250px;\\n      right: 30px; }\\n    .middle_right .prices {\\n      position: absolute;\\n      display: flex;\\n      width: 90%;\\n      justify-content: space-evenly;\\n      right: 34px;\\n      top: -100px;\\n      text-align: center; }\\n      .middle_right .prices h3 {\\n        font-weight: 1000;\\n        font-size: 70px; }\\n    .middle_right img {\\n      filter: drop-shadow(40px 40px 20px #C0C0C0);\\n      width: 100%;\\n      height: auto; } }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./public/src/Components/CenterScreen/centerMinimal.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -198,17 +198,6 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../../node_module
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/Ramen/ramen.scss":
-/*!*******************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/Ramen/ramen.scss ***!
-  \*******************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"#ramen {\\n  position: relative; }\\n  #ramen img {\\n    position: absolute;\\n    transform: scale(0.7);\\n    top: -20%; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./public/src/Components/Ramen/ramen.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/RightScreen/right.scss":
 /*!*************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/RightScreen/right.scss ***!
@@ -217,6 +206,17 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../../node_module
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css?family=Ubuntu);\", \"\"]);\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css?family=Montserrat);\", \"\"]);\nvar urlEscape = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ../../../dist/assets/FinlandRoundedThin.ttf */ \"./public/dist/assets/FinlandRoundedThin.ttf\"));\nvar ___CSS_LOADER_URL___1___ = urlEscape(__webpack_require__(/*! ../../../dist/assets/FinlandRoundedRegular.ttf */ \"./public/dist/assets/FinlandRoundedRegular.ttf\"));\nvar ___CSS_LOADER_URL___2___ = urlEscape(__webpack_require__(/*! ../../../dist/assets/FinlandRoundedBold.ttf */ \"./public/dist/assets/FinlandRoundedBold.ttf\"));\n\n// Module\nexports.push([module.i, \"@font-face {\\n  font-family: 'finlandThin';\\n  src: url(\" + ___CSS_LOADER_URL___0___ + \"); }\\n\\n@font-face {\\n  font-family: 'finlandReg';\\n  src: url(\" + ___CSS_LOADER_URL___1___ + \"); }\\n\\n@font-face {\\n  font-family: 'finlandBold';\\n  src: url(\" + ___CSS_LOADER_URL___2___ + \"); }\\n\\n/* Montserrat */\\n#right {\\n  width: 100%;\\n  height: 100vh;\\n  background: #E5E5E5;\\n  display: flex;\\n  align-items: center;\\n  justify-content: center; }\\n  #right * {\\n    font-family: \\\"finland\\\"; }\\n\\n.slideshow {\\n  width: 45%;\\n  height: 80%;\\n  margin: auto;\\n  filter: drop-shadow(40px 40px 20px #C0C0C0); }\\n  .slideshow img {\\n    width: 100%;\\n    height: 100%; }\\n\\n.right_screen {\\n  width: 45%;\\n  height: 80%;\\n  margin: auto; }\\n\\n.slide-container {\\n  width: 70%;\\n  margin: auto; }\\n\\nh3 {\\n  text-align: center; }\\n\\n.each-slide > div {\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  background-size: cover;\\n  background-position: center 30%;\\n  height: 864px; }\\n\\n.each-slide span {\\n  padding: 20px;\\n  font-size: 20px;\\n  background: #efefef;\\n  text-align: center; }\\n\\n.each-fade {\\n  display: flex; }\\n\\n.each-fade .image-container {\\n  width: 100%;\\n  overflow: hidden; }\\n\\n.each-fade .image-container img {\\n  width: 100%;\\n  height: 864px; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./public/src/Components/RightScreen/right.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/Soon/comingSoon.scss":
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/Soon/comingSoon.scss ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css?family=Ubuntu);\", \"\"]);\nexports.push([module.i, \"@import url(https://fonts.googleapis.com/css?family=Montserrat);\", \"\"]);\nvar urlEscape = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ../../../dist/assets/FinlandRoundedThin.ttf */ \"./public/dist/assets/FinlandRoundedThin.ttf\"));\nvar ___CSS_LOADER_URL___1___ = urlEscape(__webpack_require__(/*! ../../../dist/assets/FinlandRoundedRegular.ttf */ \"./public/dist/assets/FinlandRoundedRegular.ttf\"));\nvar ___CSS_LOADER_URL___2___ = urlEscape(__webpack_require__(/*! ../../../dist/assets/FinlandRoundedBold.ttf */ \"./public/dist/assets/FinlandRoundedBold.ttf\"));\n\n// Module\nexports.push([module.i, \"@font-face {\\n  font-family: 'finlandThin';\\n  src: url(\" + ___CSS_LOADER_URL___0___ + \"); }\\n\\n@font-face {\\n  font-family: 'finlandReg';\\n  src: url(\" + ___CSS_LOADER_URL___1___ + \"); }\\n\\n@font-face {\\n  font-family: 'finlandBold';\\n  src: url(\" + ___CSS_LOADER_URL___2___ + \"); }\\n\\n/* Montserrat */\\n#comingSoon {\\n  width: 100%;\\n  height: 100vh;\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  justify-content: center;\\n  background: #E5E5E5;\\n  position: relative;\\n  z-index: 10; }\\n  #comingSoon h1, #comingSoon h3 {\\n    z-index: 11;\\n    font-family: 'finlandBold';\\n    color: #FFE5B4;\\n    text-shadow: 1px 1px 2px #484848;\\n    position: absolute; }\\n  #comingSoon h1 {\\n    font-size: 200px;\\n    bottom: 250px;\\n    text-transform: uppercase; }\\n  #comingSoon h3 {\\n    font-size: 150px;\\n    bottom: 95px; }\\n\\n.soonLogo {\\n  position: absolute;\\n  z-index: 11;\\n  width: 40%;\\n  top: -30px; }\\n\\n.soonPoke {\\n  width: 60%;\\n  height: auto;\\n  position: absolute;\\n  bottom: 50px; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./public/src/Components/Soon/comingSoon.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -943,6 +943,17 @@ eval("module.exports = __webpack_require__.p + \"485c58786bf8d30642681468e4fe718
 
 /***/ }),
 
+/***/ "./public/dist/assets/logo_corrected.png":
+/*!***********************************************!*\
+  !*** ./public/dist/assets/logo_corrected.png ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"7f201b342d3c8761f470e01b3bc46e5e.png\";\n\n//# sourceURL=webpack:///./public/dist/assets/logo_corrected.png?");
+
+/***/ }),
+
 /***/ "./public/dist/assets/pokeTransLarge.png":
 /*!***********************************************!*\
   !*** ./public/dist/assets/pokeTransLarge.png ***!
@@ -951,17 +962,6 @@ eval("module.exports = __webpack_require__.p + \"485c58786bf8d30642681468e4fe718
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"b500bc99a136d9bcc5ba132ea6af8819.png\";\n\n//# sourceURL=webpack:///./public/dist/assets/pokeTransLarge.png?");
-
-/***/ }),
-
-/***/ "./public/dist/assets/ramen.png":
-/*!**************************************!*\
-  !*** ./public/dist/assets/ramen.png ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"d0bedfedc514934dc9304021f861c04f.png\";\n\n//# sourceURL=webpack:///./public/dist/assets/ramen.png?");
 
 /***/ }),
 
@@ -1006,7 +1006,7 @@ eval("module.exports = __webpack_require__.p + \"3fcf4ee611219b2a05f88999fe860e3
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var _LeftScreen__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../LeftScreen */ \"./public/src/Components/LeftScreen/index.jsx\");\n/* harmony import */ var _CenterScreen__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../CenterScreen */ \"./public/src/Components/CenterScreen/index.jsx\");\n/* harmony import */ var _RightScreen__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../RightScreen */ \"./public/src/Components/RightScreen/index.jsx\");\n/* harmony import */ var _Ramen__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Ramen */ \"./public/src/Components/Ramen/index.jsx\");\n\n\n\n\n\n\n\nvar App = function App() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"wrapper\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"Switch\"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"Route\"], {\n    exact: true,\n    path: \"/left\",\n    component: _LeftScreen__WEBPACK_IMPORTED_MODULE_2__[\"default\"]\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"Route\"], {\n    exact: true,\n    path: \"/middle\",\n    component: _CenterScreen__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"Route\"], {\n    exact: true,\n    path: \"/right\",\n    component: _RightScreen__WEBPACK_IMPORTED_MODULE_4__[\"default\"]\n  })));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./public/src/Components/App/index.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var _LeftScreen__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../LeftScreen */ \"./public/src/Components/LeftScreen/index.jsx\");\n/* harmony import */ var _CenterScreen__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../CenterScreen */ \"./public/src/Components/CenterScreen/index.jsx\");\n/* harmony import */ var _RightScreen__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../RightScreen */ \"./public/src/Components/RightScreen/index.jsx\");\n/* harmony import */ var _Soon__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Soon */ \"./public/src/Components/Soon/index.jsx\");\n\n\n\n\n\n\n\nvar App = function App() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"wrapper\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"Switch\"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"Route\"], {\n    exact: true,\n    path: \"/left\",\n    component: _LeftScreen__WEBPACK_IMPORTED_MODULE_2__[\"default\"]\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"Route\"], {\n    exact: true,\n    path: \"/middle\",\n    component: _CenterScreen__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"Route\"], {\n    exact: true,\n    path: \"/right\",\n    component: _RightScreen__WEBPACK_IMPORTED_MODULE_4__[\"default\"]\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"Route\"], {\n    exact: true,\n    path: \"/soon\",\n    component: _Soon__WEBPACK_IMPORTED_MODULE_5__[\"default\"]\n  })));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./public/src/Components/App/index.jsx?");
 
 /***/ }),
 
@@ -1067,29 +1067,6 @@ eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-load
 
 /***/ }),
 
-/***/ "./public/src/Components/Ramen/index.jsx":
-/*!***********************************************!*\
-  !*** ./public/src/Components/Ramen/index.jsx ***!
-  \***********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _ramen_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ramen.scss */ \"./public/src/Components/Ramen/ramen.scss\");\n/* harmony import */ var _ramen_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_ramen_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _dist_assets_ramen_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../dist/assets/ramen.png */ \"./public/dist/assets/ramen.png\");\n/* harmony import */ var _dist_assets_ramen_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_dist_assets_ramen_png__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\nvar Ramen = function Ramen() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"ramen\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _dist_assets_ramen_png__WEBPACK_IMPORTED_MODULE_2___default.a,\n    alt: \"\"\n  }));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Ramen);\n\n//# sourceURL=webpack:///./public/src/Components/Ramen/index.jsx?");
-
-/***/ }),
-
-/***/ "./public/src/Components/Ramen/ramen.scss":
-/*!************************************************!*\
-  !*** ./public/src/Components/Ramen/ramen.scss ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/lib/loader.js!./ramen.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/Ramen/ramen.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./public/src/Components/Ramen/ramen.scss?");
-
-/***/ }),
-
 /***/ "./public/src/Components/RightScreen/index.jsx":
 /*!*****************************************************!*\
   !*** ./public/src/Components/RightScreen/index.jsx ***!
@@ -1110,6 +1087,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/lib/loader.js!./right.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/RightScreen/right.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./public/src/Components/RightScreen/right.scss?");
+
+/***/ }),
+
+/***/ "./public/src/Components/Soon/comingSoon.scss":
+/*!****************************************************!*\
+  !*** ./public/src/Components/Soon/comingSoon.scss ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/sass-loader/lib/loader.js!./comingSoon.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/lib/loader.js!./public/src/Components/Soon/comingSoon.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./public/src/Components/Soon/comingSoon.scss?");
+
+/***/ }),
+
+/***/ "./public/src/Components/Soon/index.jsx":
+/*!**********************************************!*\
+  !*** ./public/src/Components/Soon/index.jsx ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _comingSoon_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./comingSoon.scss */ \"./public/src/Components/Soon/comingSoon.scss\");\n/* harmony import */ var _comingSoon_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_comingSoon_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _dist_assets_steps_pokegif3_gif__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../dist/assets/steps/pokegif3.gif */ \"./public/dist/assets/steps/pokegif3.gif\");\n/* harmony import */ var _dist_assets_steps_pokegif3_gif__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_dist_assets_steps_pokegif3_gif__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _dist_assets_logo_corrected_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../dist/assets/logo_corrected.png */ \"./public/dist/assets/logo_corrected.png\");\n/* harmony import */ var _dist_assets_logo_corrected_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_dist_assets_logo_corrected_png__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\nvar ComingSoon = function ComingSoon() {\n  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: \"comingSoon\"\n  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    className: \"soonLogo\",\n    src: _dist_assets_logo_corrected_png__WEBPACK_IMPORTED_MODULE_4___default.a,\n    alt: \"\"\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    className: \"soonPoke\",\n    src: _dist_assets_steps_pokegif3_gif__WEBPACK_IMPORTED_MODULE_2___default.a,\n    alt: \"\"\n  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \"Coming soon\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h3\", null, \"La Cienaga/Jefferson\"));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (ComingSoon);\n\n//# sourceURL=webpack:///./public/src/Components/Soon/index.jsx?");
 
 /***/ }),
 

@@ -1,64 +1,69 @@
 @import '../App/global.scss';
 
-#center {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  background: #E5E5E5;
-  // width: 100%;
-  // height: 100vh;
-  // background: #E5E5E5;
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
 
-  * {
-    font-family: "finlandReg";
-    color: $black;
+@media only screen and (min-width: 1080px) {
+
+  #center {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: #E5E5E5;
+    // width: 100%;
+    // height: 100vh;
+    // background: #E5E5E5;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+  
+    * {
+      font-family: "finlandReg";
+      color: $black;
+    }
+  
   }
-
-}
-.middle_left {
-  position: absolute;
-  left: 112px;
-  bottom: 92px;
-  filter: drop-shadow(40px 40px 20px #C0C0C0);
-}
-.middle_right {
-  width: 50%;
-  position: absolute;
-  right: 0px;
-  bottom: 50px;
-  h1 {
-    text-align: center;
-    font-size: 140px;
-    font-weight: 1000;
-    text-transform: uppercase;
+  .middle_left {
     position: absolute;
-    top: -250px;
-    right: 30px;
+    left: 112px;
+    bottom: 92px;
+    filter: drop-shadow(40px 40px 20px #C0C0C0);
   }
-  .prices {
+  .middle_right {
+    width: 50%;
     position: absolute;
-    display: flex;
-    width: 90%;
-    justify-content: space-evenly;
-    right: 34px;
-    top: -100px;
-    text-align: center;
-
-    h3 {
+    right: 0px;
+    bottom: 50px;
+    h1 {
+      text-align: center;
+      font-size: 140px;
       font-weight: 1000;
-      font-size: 70px;
+      text-transform: uppercase;
+      position: absolute;
+      top: -250px;
+      right: 30px;
+    }
+    .prices {
+      position: absolute;
+      display: flex;
+      width: 90%;
+      justify-content: space-evenly;
+      right: 34px;
+      top: -100px;
+      text-align: center;
+  
+      h3 {
+        font-weight: 1000;
+        font-size: 70px;
+      }
+    }
+    img {
+      filter: drop-shadow(40px 40px 20px #C0C0C0);
+      width: 100%;
+      height: auto;
     }
   }
-  img {
-    filter: drop-shadow(40px 40px 20px #C0C0C0);
-    width: 100%;
-    height: auto;
-  }
 }
+
     // img {
     //   width: 100%;
     //   height: 100%;
